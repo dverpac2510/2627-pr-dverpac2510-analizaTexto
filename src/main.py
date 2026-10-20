@@ -1,5 +1,10 @@
 def analizar_texto(frase: str) -> tuple[int, int]:
+	"""
+	:param frase: la frase introducida por el usuario
+	:return: una tupla que incluye el numero de vocales en la frase y sus palabras
+	"""
 	
+
 	
 	vocales = "aáeéiíoóuúü"
 	numvocales: int = 0
